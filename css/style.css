@@ -19,4 +19,26 @@
     border: none;
     padding: 9px 25px;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.cat-1,
+.cat-2,
+.cat-3 {
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.cat-1{
+    background-image: linear-gradient(45deg, orange , peru );
+}
+
+.cat-2{
+    background-image: linear-gradient(45deg,orchid , peru );
+}
+
+.cat-3{
+    background-image: linear-gradient(45deg,blue , royalblue );
+}
+.categories h1 {
+    color: white;
 }
