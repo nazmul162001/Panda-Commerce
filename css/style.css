@@ -1,8 +1,13 @@
 /* stylesheet */
+.nav-container{
+    padding-top: 40px;
+}
 
 .container{
     margin-bottom: 100px;
+    padding-top: 50px;
 }
+
 .orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
@@ -41,4 +46,21 @@
 }
 .categories h1 {
     color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+#Contact{
+    height: 300px;
+}
+#Contact h6{
+    color: gray;
+}
+.form-control{
+    margin-bottom: 10px;
 }
